@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEC3FB1296FE5CE00D77FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3FB0296FE5CE00D77FE3 /* AppDelegate.swift */; };
+		CFEC3FB3296FE5CE00D77FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3FB2296FE5CE00D77FE3 /* SceneDelegate.swift */; };
+		CFEC3FB5296FE5CE00D77FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3FB4296FE5CE00D77FE3 /* ViewController.swift */; };
+		CFEC3FB8296FE5CE00D77FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEC3FB6296FE5CE00D77FE3 /* Main.storyboard */; };
+		CFEC3FBA296FE5CF00D77FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEC3FB9296FE5CF00D77FE3 /* Assets.xcassets */; };
+		CFEC3FBD296FE5CF00D77FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEC3FBB296FE5CF00D77FE3 /* LaunchScreen.storyboard */; };
+		CFEC3FC8296FE5CF00D77FE3 /* pinchGestureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3FC7296FE5CF00D77FE3 /* pinchGestureAppTests.swift */; };
+		CFEC3FD2296FE5CF00D77FE3 /* pinchGestureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3FD1296FE5CF00D77FE3 /* pinchGestureAppUITests.swift */; };
+		CFEC3FD4296FE5CF00D77FE3 /* pinchGestureAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3FD3296FE5CF00D77FE3 /* pinchGestureAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEC3FC4296FE5CF00D77FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEC3FA5296FE5CE00D77FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEC3FAC296FE5CE00D77FE3;
+			remoteInfo = pinchGestureApp;
+		};
+		CFEC3FCE296FE5CF00D77FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEC3FA5296FE5CE00D77FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEC3FAC296FE5CE00D77FE3;
+			remoteInfo = pinchGestureApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFEC3FAD296FE5CE00D77FE3 /* pinchGestureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinchGestureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEC3FB0296FE5CE00D77FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFEC3FB2296FE5CE00D77FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFEC3FB4296FE5CE00D77FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFEC3FB7296FE5CE00D77FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEC3FB9296FE5CF00D77FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEC3FBC296FE5CF00D77FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFEC3FBE296FE5CF00D77FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEC3FC3296FE5CF00D77FE3 /* pinchGestureAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinchGestureAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEC3FC7296FE5CF00D77FE3 /* pinchGestureAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinchGestureAppTests.swift; sourceTree = "<group>"; };
+		CFEC3FCD296FE5CF00D77FE3 /* pinchGestureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinchGestureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEC3FD1296FE5CF00D77FE3 /* pinchGestureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinchGestureAppUITests.swift; sourceTree = "<group>"; };
+		CFEC3FD3296FE5CF00D77FE3 /* pinchGestureAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinchGestureAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEC3FAA296FE5CE00D77FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC3FC0296FE5CF00D77FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC3FCA296FE5CF00D77FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEC3FA4296FE5CE00D77FE3 = {
+			isa = PBXGroup;
+			children = (
+				CFEC3FAF296FE5CE00D77FE3 /* pinchGestureApp */,
+				CFEC3FC6296FE5CF00D77FE3 /* pinchGestureAppTests */,
+				CFEC3FD0296FE5CF00D77FE3 /* pinchGestureAppUITests */,
+				CFEC3FAE296FE5CE00D77FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEC3FAE296FE5CE00D77FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC3FAD296FE5CE00D77FE3 /* pinchGestureApp.app */,
+				CFEC3FC3296FE5CF00D77FE3 /* pinchGestureAppTests.xctest */,
+				CFEC3FCD296FE5CF00D77FE3 /* pinchGestureAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEC3FAF296FE5CE00D77FE3 /* pinchGestureApp */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC3FB0296FE5CE00D77FE3 /* AppDelegate.swift */,
+				CFEC3FB2296FE5CE00D77FE3 /* SceneDelegate.swift */,
+				CFEC3FB4296FE5CE00D77FE3 /* ViewController.swift */,
+				CFEC3FB6296FE5CE00D77FE3 /* Main.storyboard */,
+				CFEC3FB9296FE5CF00D77FE3 /* Assets.xcassets */,
+				CFEC3FBB296FE5CF00D77FE3 /* LaunchScreen.storyboard */,
+				CFEC3FBE296FE5CF00D77FE3 /* Info.plist */,
+			);
+			path = pinchGestureApp;
+			sourceTree = "<group>";
+		};
+		CFEC3FC6296FE5CF00D77FE3 /* pinchGestureAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC3FC7296FE5CF00D77FE3 /* pinchGestureAppTests.swift */,
+			);
+			path = pinchGestureAppTests;
+			sourceTree = "<group>";
+		};
+		CFEC3FD0296FE5CF00D77FE3 /* pinchGestureAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC3FD1296FE5CF00D77FE3 /* pinchGestureAppUITests.swift */,
+				CFEC3FD3296FE5CF00D77FE3 /* pinchGestureAppUITestsLaunchTests.swift */,
+			);
+			path = pinchGestureAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEC3FAC296FE5CE00D77FE3 /* pinchGestureApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEC3FD7296FE5CF00D77FE3 /* Build configuration list for PBXNativeTarget "pinchGestureApp" */;
+			buildPhases = (
+				CFEC3FA9296FE5CE00D77FE3 /* Sources */,
+				CFEC3FAA296FE5CE00D77FE3 /* Frameworks */,
+				CFEC3FAB296FE5CE00D77FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinchGestureApp;
+			productName = pinchGestureApp;
+			productReference = CFEC3FAD296FE5CE00D77FE3 /* pinchGestureApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEC3FC2296FE5CF00D77FE3 /* pinchGestureAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEC3FDA296FE5CF00D77FE3 /* Build configuration list for PBXNativeTarget "pinchGestureAppTests" */;
+			buildPhases = (
+				CFEC3FBF296FE5CF00D77FE3 /* Sources */,
+				CFEC3FC0296FE5CF00D77FE3 /* Frameworks */,
+				CFEC3FC1296FE5CF00D77FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEC3FC5296FE5CF00D77FE3 /* PBXTargetDependency */,
+			);
+			name = pinchGestureAppTests;
+			productName = pinchGestureAppTests;
+			productReference = CFEC3FC3296FE5CF00D77FE3 /* pinchGestureAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEC3FCC296FE5CF00D77FE3 /* pinchGestureAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEC3FDD296FE5CF00D77FE3 /* Build configuration list for PBXNativeTarget "pinchGestureAppUITests" */;
+			buildPhases = (
+				CFEC3FC9296FE5CF00D77FE3 /* Sources */,
+				CFEC3FCA296FE5CF00D77FE3 /* Frameworks */,
+				CFEC3FCB296FE5CF00D77FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEC3FCF296FE5CF00D77FE3 /* PBXTargetDependency */,
+			);
+			name = pinchGestureAppUITests;
+			productName = pinchGestureAppUITests;
+			productReference = CFEC3FCD296FE5CF00D77FE3 /* pinchGestureAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEC3FA5296FE5CE00D77FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CFEC3FAC296FE5CE00D77FE3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CFEC3FC2296FE5CF00D77FE3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFEC3FAC296FE5CE00D77FE3;
+					};
+					CFEC3FCC296FE5CF00D77FE3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFEC3FAC296FE5CE00D77FE3;
+					};
+				};
+			};
+			buildConfigurationList = CFEC3FA8296FE5CE00D77FE3 /* Build configuration list for PBXProject "pinchGestureApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEC3FA4296FE5CE00D77FE3;
+			productRefGroup = CFEC3FAE296FE5CE00D77FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEC3FAC296FE5CE00D77FE3 /* pinchGestureApp */,
+				CFEC3FC2296FE5CF00D77FE3 /* pinchGestureAppTests */,
+				CFEC3FCC296FE5CF00D77FE3 /* pinchGestureAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEC3FAB296FE5CE00D77FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEC3FBD296FE5CF00D77FE3 /* LaunchScreen.storyboard in Resources */,
+				CFEC3FBA296FE5CF00D77FE3 /* Assets.xcassets in Resources */,
+				CFEC3FB8296FE5CE00D77FE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC3FC1296FE5CF00D77FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC3FCB296FE5CF00D77FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEC3FA9296FE5CE00D77FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEC3FB5296FE5CE00D77FE3 /* ViewController.swift in Sources */,
+				CFEC3FB1296FE5CE00D77FE3 /* AppDelegate.swift in Sources */,
+				CFEC3FB3296FE5CE00D77FE3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC3FBF296FE5CF00D77FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEC3FC8296FE5CF00D77FE3 /* pinchGestureAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC3FC9296FE5CF00D77FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEC3FD2296FE5CF00D77FE3 /* pinchGestureAppUITests.swift in Sources */,
+				CFEC3FD4296FE5CF00D77FE3 /* pinchGestureAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEC3FC5296FE5CF00D77FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEC3FAC296FE5CE00D77FE3 /* pinchGestureApp */;
+			targetProxy = CFEC3FC4296FE5CF00D77FE3 /* PBXContainerItemProxy */;
+		};
+		CFEC3FCF296FE5CF00D77FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEC3FAC296FE5CE00D77FE3 /* pinchGestureApp */;
+			targetProxy = CFEC3FCE296FE5CF00D77FE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEC3FB6296FE5CE00D77FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEC3FB7296FE5CE00D77FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEC3FBB296FE5CF00D77FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEC3FBC296FE5CF00D77FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEC3FD5296FE5CF00D77FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFEC3FD6296FE5CF00D77FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEC3FD8296FE5CF00D77FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJV4XZ4DH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pinchGestureApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leejunhyeob.pinchGestureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEC3FD9296FE5CF00D77FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJV4XZ4DH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pinchGestureApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leejunhyeob.pinchGestureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFEC3FDB296FE5CF00D77FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJV4XZ4DH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leejunhyeob.pinchGestureAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinchGestureApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pinchGestureApp";
+			};
+			name = Debug;
+		};
+		CFEC3FDC296FE5CF00D77FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJV4XZ4DH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leejunhyeob.pinchGestureAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinchGestureApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pinchGestureApp";
+			};
+			name = Release;
+		};
+		CFEC3FDE296FE5CF00D77FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJV4XZ4DH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leejunhyeob.pinchGestureAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinchGestureApp;
+			};
+			name = Debug;
+		};
+		CFEC3FDF296FE5CF00D77FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJV4XZ4DH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leejunhyeob.pinchGestureAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinchGestureApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEC3FA8296FE5CE00D77FE3 /* Build configuration list for PBXProject "pinchGestureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEC3FD5296FE5CF00D77FE3 /* Debug */,
+				CFEC3FD6296FE5CF00D77FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEC3FD7296FE5CF00D77FE3 /* Build configuration list for PBXNativeTarget "pinchGestureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEC3FD8296FE5CF00D77FE3 /* Debug */,
+				CFEC3FD9296FE5CF00D77FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEC3FDA296FE5CF00D77FE3 /* Build configuration list for PBXNativeTarget "pinchGestureAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEC3FDB296FE5CF00D77FE3 /* Debug */,
+				CFEC3FDC296FE5CF00D77FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEC3FDD296FE5CF00D77FE3 /* Build configuration list for PBXNativeTarget "pinchGestureAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEC3FDE296FE5CF00D77FE3 /* Debug */,
+				CFEC3FDF296FE5CF00D77FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEC3FA5296FE5CE00D77FE3 /* Project object */;
+}
